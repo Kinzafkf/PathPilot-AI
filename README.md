@@ -1,148 +1,152 @@
+<div align="center">
+
 # 🚀 PathPilot AI
 
-**Empowering Pakistani CS & IT Students and Fresh Graduates with AI-Driven Career Roadmaps & ATS Resume Intelligence.**
+### Empowering Pakistani CS & IT Students and Fresh Graduates with AI-Driven Career Roadmaps & ATS Resume Intelligence
 
-PathPilot AI is an AI-powered career counseling and technical recruitment platform designed specifically for the Pakistani tech ecosystem. It bridges the gap between academic university curricula and real-world hiring expectations across top Pakistani tech companies (Systems Ltd, 10Pearls, Arbisoft, Contour Software, Devsinc, Afiniti, NETSOL, TRG), high-growth local startups, and global remote opportunities.
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_App-6C3CE9?style=for-the-badge)](https://pathai-sigma.vercel.app/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Gemini AI](https://img.shields.io/badge/Powered_by-Gemini_AI-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
+[![Supabase](https://img.shields.io/badge/Backend-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+
+**🔗 Live App:** **[pathai-sigma.vercel.app](https://pathai-sigma.vercel.app/)**
+
+</div>
+
+---
+
+## 📖 About
+
+**PathPilot AI** is an AI-powered career counseling and technical recruitment platform built specifically for the **Pakistani tech ecosystem**. It bridges the gap between academic curricula and real-world hiring expectations across top Pakistani tech companies — **Systems Ltd, 10Pearls, Arbisoft, Contour Software, Devsinc, Afiniti, NETSOL, TRG** — as well as high-growth local startups and global remote opportunities.
+
+Instead of generic, one-size-fits-all career advice, PathPilot AI generates **hyper-localized, data-grounded roadmaps and resume feedback** — tuned to Pakistani salary benchmarks, hiring trends, and national learning initiatives.
 
 ---
 
 ## ✨ Key Features
 
-### 1. 🎯 AI Career Roadmap Generator
-- **Personalized 20-Week Curriculums**: Generates customized, milestone-driven technical roadmaps based on your target role, university background, current skills, and weekly study bandwidth.
-- **Pakistani Market Grounding**: Includes local entry-level salary benchmarks (in PKR), hiring software houses, in-demand regional tech stacks, and national learning initiatives (DigiSkills.pk, NAVTTC, PIAIC).
-- **Interactive Checklists & PDF Export**: Track weekly milestone completion in real-time or export clean PDF roadmaps for offline study.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### 2. 📄 ATS Resume Analyzer & Fixer
-- **0–100 ATS Compatibility Score**: Deep inspection of technical keywords, quantifiable achievements, formatting, section hierarchies, and grammar.
-- **Actionable Bullet Enhancements**: Transforms weak resume lines into high-impact, metrics-driven bullet points using the Google XYZ formula (*"Accomplished [X], as measured by [Y], by doing [Z]"*).
-- **Direct PDF & Text Ingestion**: Upload `.pdf`, `.txt`, or `.md` files, or paste raw resume text with instant text parsing.
+### 🎯 AI Career Roadmap Generator
+- Personalized **20-week milestone-driven curriculums** based on target role, university background, current skills, and weekly study bandwidth
+- Grounded in the **Pakistani market**: local entry-level salary benchmarks (PKR), hiring software houses, in-demand regional tech stacks, and national programs (**DigiSkills.pk, NAVTTC, PIAIC**)
+- Interactive checklists with real-time progress tracking + clean **PDF export** for offline study
 
-### 3. 🏢 Pakistani Tech Hub Directory & Market Insights
-- Explore top hiring companies across Lahore, Karachi, Islamabad/Rawalpindi, Faisalabad, and Peshawar.
-- Salary trends, interview processes, and tech stacks for junior and associate engineering roles.
+</td>
+<td width="50%" valign="top">
 
-### 4. 🌓 Theme System & Accessibility
-- Seamless Dark and Light theme switching with zero page-flash on initial load.
-- Fully responsive design engineered for mobile devices, tablets, and wide desktop screens.
+### 📄 ATS Resume Analyzer & Fixer
+- **0–100 ATS Compatibility Score** covering technical keywords, quantifiable achievements, formatting, and section hierarchy
+- Rewrites weak bullet points into high-impact, metrics-driven lines using the **Google XYZ formula**
+- Direct ingestion of `.pdf`, `.txt`, or `.md` files — or paste resume text directly
 
-### 5. 💾 User Cloud Persistence (Supabase)
-- Save generated roadmaps and ATS resume reports to your personal dashboard.
-- Safe guest mode with client-side caching for quick access without mandatory sign-up.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏢 Pakistani Tech Hub Directory
+- Explore top hiring companies across **Lahore, Karachi, Islamabad/Rawalpindi, Faisalabad, and Peshawar**
+- Salary trends, interview processes, and tech stacks for junior/associate engineering roles
+
+</td>
+<td width="50%" valign="top">
+
+### 💾 Cloud Persistence & Accessibility
+- Save roadmaps and resume reports to a personal dashboard via **Supabase**
+- Safe **guest mode** with client-side caching — no mandatory sign-up
+- Seamless **Dark/Light theme** switching, zero flash on load, fully responsive across devices
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: [React 19](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS v4](https://tailwindcss.com/), [Motion](https://motion.dev/)
-- **Backend / Server**: [Express.js](https://expressjs.com/) with [Vite Middleware](https://vite.dev/) (Local & Container Dev) + [Vercel Serverless Functions](https://vercel.com/docs/functions) (`/api/*`)
-- **AI Engine**: [Google Gemini 2.5/3.7 Flash](https://ai.google.dev/) via `@google/genai` with fallback local evaluation heuristics
-- **Document Processing**: `pdf-parse` (v2 & stream reader), `jspdf`
-- **Database & Auth**: [Supabase](https://supabase.com/) (`@supabase/supabase-js`)
-- **Icons**: [Lucide React](https://lucide.dev/)
+| Layer | Technology |
+|---|---|
+| **Frontend** | React 19 · TypeScript · Tailwind CSS v4 · Motion |
+| **Backend / Server** | Express.js + Vite Middleware (local) · Vercel Serverless Functions (`/api/*`) |
+| **AI Engine** | Google Gemini 2.5 / 3.7 Flash (`@google/genai`) with local heuristic fallback |
+| **Document Processing** | `pdf-parse`, `jspdf` |
+| **Database & Auth** | Supabase (`@supabase/supabase-js`) |
+| **Icons** | Lucide React |
 
 ---
 
-## 📁 Project Structure
-
-```text
-├── api/                     # Vercel Serverless Functions
-│   ├── analyze-resume.ts    # POST: ATS Resume analysis with Gemini
-│   ├── generate-roadmap.ts  # POST: 20-week roadmap generator
-│   ├── parse-pdf.ts         # POST: PDF text extraction endpoint
-│   └── health.ts            # GET: Server & AI health status
-├── public/                  # Static assets & sample resumes
-├── src/
-│   ├── components/          # Reusable UI components (Navbar, Footer, etc.)
-│   ├── context/             # AuthContext & ThemeContext providers
-│   ├── data/                # Pakistani tech companies & role definitions
-│   ├── pages/               # Application views
-│   │   ├── HomePage.tsx
-│   │   ├── RoadmapGeneratorPage.tsx
-│   │   ├── ResumeAnalyzerPage.tsx
-│   │   ├── TechDirectoryPage.tsx
-│   │   ├── DashboardPage.tsx
-│   │   └── AuthPage.tsx
-│   ├── services/            # Supabase database & storage clients
-│   ├── types/               # Global TypeScript definitions
-│   ├── App.tsx              # Main routing & layout
-│   ├── index.css            # Tailwind v4 theme definitions
-│   └── main.tsx             # React DOM entry point
-├── .env.example             # Example environment variable template
-├── .gitignore               # Ignored secrets, builds, and dependencies
-├── package.json             # NPM dependencies & build scripts
-├── server.ts                # Express development & full-stack container server
-├── vercel.json              # Vercel deployment & routing configuration
-└── vite.config.ts           # Vite build pipeline configuration
-```
-
----
-
-## 🚀 Quick Start (Local Development)
+## 🚀 Quick Start
 
 ### Prerequisites
-- **Node.js**: v18.0.0 or higher
-- **npm** or **bun** / **yarn** / **pnpm**
-- **Google Gemini API Key** (Free from [Google AI Studio](https://aistudio.google.com/))
+- Node.js v18+
+- npm / bun / yarn / pnpm
+- A free **Google Gemini API key** from [Google AI Studio](https://aistudio.google.com/)
 
-### 1. Clone & Install Dependencies
+### Setup
+
 ```bash
 git clone https://github.com/your-username/pathpilot-ai.git
 cd pathpilot-ai
 npm install
 ```
 
-### 2. Configure Environment Variables
-Copy `.env.example` to `.env`:
+Copy the environment template and fill in your keys:
+
 ```bash
 cp .env.example .env
 ```
 
-Open `.env` and fill in your keys:
 ```env
-# Google Gemini AI Key
 GEMINI_API_KEY=your_gemini_api_key_here
 
-# (Optional) Supabase Credentials for user cloud sync
+# Optional — for cloud sync
 VITE_SUPABASE_URL=https://your-project.supabase.co
 VITE_SUPABASE_ANON_KEY=your_anon_key_here
 ```
 
-### 3. Start Development Server
+Run the dev server:
+
 ```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+Then open **[http://localhost:3000](http://localhost:3000)**.
 
 ---
 
-## ☁️ Deploying to Vercel
+## ☁️ Deployment
 
-PathPilot AI includes native Vercel configuration (`vercel.json` & `/api/` serverless functions).
+PathPilot AI is live at **[pathai-sigma.vercel.app](https://pathai-sigma.vercel.app/)**, deployed on Vercel using the included `vercel.json` and `/api/` serverless functions.
 
-### Step-by-Step Deployment:
+To deploy your own copy:
 
-1. **Push your code to GitHub / GitLab**.
-2. Go to [Vercel Dashboard](https://vercel.com/new) and import your repository.
-3. Vercel automatically detects the Vite framework and `vercel.json` configuration:
-   - **Framework Preset**: `Vite`
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-4. **Add Environment Variables in Vercel Project Settings**:
-   - `GEMINI_API_KEY`: `AIzaSy...` (Your Gemini API Key)
-   - *(Optional)* `VITE_SUPABASE_URL`: `https://...supabase.co`
-   - *(Optional)* `VITE_SUPABASE_ANON_KEY`: `eyJ...`
-5. Click **Deploy**. Your app will be live with full SSL and serverless AI endpoints in ~1 minute.
+1. Push your code to GitHub
+2. Import the repo at [vercel.com/new](https://vercel.com/new) — Vercel auto-detects the Vite framework
+3. Add environment variables in **Project Settings**: `GEMINI_API_KEY`, and optionally `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY`
+4. Click **Deploy** — live in under a minute with full SSL and serverless AI endpoints
 
 ---
 
 ## 🛡️ Security & Privacy
 
-- Sensitive `.env` files, API keys, credentials, and `node_modules/` are strictly excluded from version control via `.gitignore`.
-- All Gemini API calls are securely processed server-side (`/api/*` in Vercel and `server.ts` in containers). API keys are **never** exposed to client browser bundles.
+- `.env` files, API keys, credentials, and `node_modules/` are excluded from version control via `.gitignore`
+- All Gemini API calls are processed **server-side only** (`/api/*` on Vercel, `server.ts` locally) — API keys never reach the client bundle
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE).
+
+<div align="center">
+
+Made with 💜 for Pakistan's next generation of tech talent
+
+</div>
