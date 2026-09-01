@@ -1,0 +1,8 @@
+{
+  "name": "PathPilot AI",
+  "description": "AI-powered career guidance and ATS resume analysis platform for Pakistani CS and IT students and fresh graduates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
